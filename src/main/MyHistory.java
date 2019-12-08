@@ -78,4 +78,13 @@ public class MyHistory {
         }
         return s;
     }
+    public static void main(String[] argv) {
+        MyHistory h = new MyHistory("test.txt");
+        h.read();
+        h.addLine("neco");
+        k.save();
+        h.add(t2);
+        System.out.println(h.toString());
+
+    }
 }
